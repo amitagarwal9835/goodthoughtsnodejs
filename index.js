@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/postApi', (req, res) => {
-    console.log('Hello World from node server post api v3!')
+    console.log('Hello World from node server post api v1!')
     res.send('Hello World from node server post api!')
 })
 
